@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aniversário 2023</title>
+    <link rel="stylesheet" href="styles/main.scss">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wgt@400;700;900&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <img class="hero__logo" src="./images/logo.png" alt="Duas taças brindando">
+            <p class="hero__text">
+                A maior festa de aniversário dos últimos anos começa em: <br /> <span id="contador"></span>
+            </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Localização</b>
+                        Allianz Parque - Barra Funda - São Paulo
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Preço</b>
+                        A partir de R$ 180,00
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Quando</b>
+                        20/12/2023 as 19hrs
+                    </li>
+                </ul>
+                <a href="#" class="button button--primary">
+                    Garanta a sua vaga
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="event event--local">
+        <div class="container" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <div class="event__details">
+                <h2 class="event__details__title">Local do evento</h2>
+                <p class="event__details__discription">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere reprehenderit ea cum temporibus tenetur hic sequi vitae quo recusandae illum in nihil, labore, eaque earum quia aliquam quidem exercitationem inventore?
+                </p>
+            </div>
+            <img class="event__image" src="./images/local.jpg" alt="Salão da festa em preto e branco">
+        </div>
+    </section>
+    <section class="event event--band event--image-left">
+        <div class="container" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <div class="container" >
+            <div class="event__details">
+                <h2 class="event__details__title">Banda</h2>
+                <p class="event__details__discription">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere reprehenderit ea cum temporibus tenetur hic sequi vitae quo recusandae illum in nihil, labore, eaque earum quia aliquam quidem exercitationem inventore?
+                </p>
+            </div>
+            <img class="event__image" src="./images/banda.jpg" alt="Vocal e guitarra em preto e brando">
+        </div>
+    </section>
+    <section class="event event--dj">
+        <div class="container" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <div class="event__details">
+                <h2 class="event__details__title">DJ</h2>
+                <p class="event__details__discription">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere reprehenderit ea cum temporibus tenetur hic sequi vitae quo recusandae illum in nihil, labore, eaque earum quia aliquam quidem exercitationem inventore?
+                </p>
+            </div>
+            <img class="event__image" src="./images/DJ.jpg" alt="Pick-Up do DJ">
+        </div>
+    </section>
+    <section class="event event--drinks event--image-left">
+        <div class="container" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <div class="event__details">
+                <h2 class="event__details__title">Bar</h2>
+                <p class="event__details__discription">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere reprehenderit ea cum temporibus tenetur hic sequi vitae quo recusandae illum in nihil, labore, eaque earum quia aliquam quidem exercitationem inventore?
+                </p>
+            </div>
+            <img class="event__image" src="./images/bebidas.jpg" alt="Bar do evento">
+        </div>
+    </section>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="/src/scripts/main.js"></script>
+</body>
+</html>
